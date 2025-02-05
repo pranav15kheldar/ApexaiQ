@@ -29,7 +29,7 @@ for each_row in all_table_rows:
         list_of_data.append(data.text)
         print(list_of_data)
     list_of_rows.append(list_of_data)
-print(list_of_rows)
+#print(list_of_rows)
  
  
 df = pd.DataFrame(list_of_rows[1:], columns = list_of_rows[0])
