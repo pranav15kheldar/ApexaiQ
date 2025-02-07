@@ -1,4 +1,4 @@
-"""Aaj Tak web Scrap"""
+"""Aaj Tak Headline web Scrap"""
 #Import Libries
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
