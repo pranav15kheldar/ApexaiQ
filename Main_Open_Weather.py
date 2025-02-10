@@ -11,9 +11,9 @@ location_file_name = "Location.json"
 zip_code = int(input("Enter Zip Code:"))
 
 def location():
-    """Fectues Coordinate of Enter Zip code using Open Weather Geocoding API Saves its latitude and Longitude Coordinate in json file"""
+    """Fetch Coordinate of Enter Zip code using Open Weather Geocoding API Saves its latitude and Longitude Coordinate in json file"""
 
-    # Decelar Golbal to be access by other functions also
+    # Declear Golbal to be accessable to other functions also
     global lat
     global lon
 
@@ -36,7 +36,7 @@ def location():
   
 
 def current_weather() :
-    """Fetches Current temperature for given coordinates using open weather api """
+    """Fetches Current temperature using open weather api for coordinates that open weather's geocoding api fetchs from zip code """
 
     url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&units=metric&appid={API_KEY}"
 
