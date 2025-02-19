@@ -1,0 +1,15 @@
+Install Nmap
+On Linux (Ubuntu/Debian-based):
+Install via APT:sudo apt update && sudo apt install nmap -y
+Verify installation:nmap --version
+=========================================================================
+Using Nmap for Network Scanning:
+Basic Scan:nmap -sV <target-ip>
+Detects open ports and services on the target.
+
+Aggressive Scan (Detailed Information):nmap -A <target-ip>
+Vulnerability Scan (Using Nmap Scripts Engine):nmap --script=vuln <target-ip>
+
+Export Scan Report:nmap -oN scan_report.txt <target-ip>
+=============================================================================
+
