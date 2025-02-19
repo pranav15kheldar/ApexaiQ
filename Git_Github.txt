@@ -1,0 +1,60 @@
+1. Install Git (If Not Installed)
+First, check if Git is installed:
+git --version
+
+If it's not installed, run:
+sudo apt update
+sudo apt install git
+
+2. Configure Git (If Not Done Before)
+Set up your Git username and email (used for commits):
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+
+3. Navigate to Your Project Folder
+Move to your project directory:
+cd /path/to/your/project
+
+4. Initialize Git
+If your project is not yet a Git repository, initialize it:
+git init
+
+5. Connect to Your GitHub Repository
+If you haven't already, add your GitHub repository as the remote origin. Replace your-username and your-repo-name:
+git remote add origin https://github.com/your-username/your-repo-name.git
+
+To verify the remote repository:
+git remote -v
+
+6. Add and Commit Files
+Add all files to Git:
+git add .
+
+Commit the files with a message:
+git commit -m "Initial commit"
+
+7. Push to GitHub
+If this is a new repository:
+git branch -M main
+git push -u origin main
+
+If you get an authentication error, use GitHub Personal Access Token (PAT = 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) instead of your password.
+
+git pull --rebase origin main
+===================================================================
+Branch change in git
+List available branches
+git branch
+This shows all branches in your repository, with * indicating the currently active branch.
+
+Switch to an existing branch:
+git checkout branch_name
+or using the modern approach:
+
+git switch branch_name
+
+Create and switch to a new branch:
+git checkout -b new_branch_name
+OR
+git switch -c new_branch_name
+
