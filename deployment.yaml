@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: date-time-app  # Name of the Deployment
+spec:
+  replicas: 3  # We only need 1 pod (you can increase this for scalability)
+  selector:
+    matchLabels:
+      app: date-time-app  # Label to match with pods
+  template:
+    metadata:
+      labels:
+        app: date-time-app  # This label is used to connect pods with the service
+    spec:
+      containers:
+      - name: date-time-app  # Name of the container
+        image: date-time-app:latest  # The image we loaded into Minikube
+        ports:
+        - containerPort: 5000  # The port our Flask app is running on
+        resources:
+          requests:
+            cpu: "100m"
+          limits:
+            cpu: "200m"
