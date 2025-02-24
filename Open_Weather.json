@@ -1,7 +1,7 @@
 {
     "coord": {
-        "lon": 76.4083,
-        "lat": 20.5111
+        "lon": 76.3301,
+        "lat": 20.9017
     },
     "weather": [
         {
@@ -13,32 +13,32 @@
     ],
     "base": "stations",
     "main": {
-        "temp": 306.92,
-        "feels_like": 305.17,
-        "temp_min": 306.92,
-        "temp_max": 306.92,
-        "pressure": 1010,
-        "humidity": 23,
-        "sea_level": 1010,
-        "grnd_level": 953
+        "temp": 32.26,
+        "feels_like": 30.02,
+        "temp_min": 32.26,
+        "temp_max": 32.26,
+        "pressure": 1012,
+        "humidity": 15,
+        "sea_level": 1012,
+        "grnd_level": 980
     },
     "visibility": 10000,
     "wind": {
-        "speed": 3.19,
-        "deg": 288,
-        "gust": 3.75
+        "speed": 3.6,
+        "deg": 285,
+        "gust": 4.61
     },
     "clouds": {
         "all": 0
     },
-    "dt": 1739182183,
+    "dt": 1739358361,
     "sys": {
         "country": "IN",
-        "sunrise": 1739150818,
-        "sunset": 1739191821
+        "sunrise": 1739323602,
+        "sunset": 1739364678
     },
     "timezone": 19800,
-    "id": 1275117,
-    "name": "Buld\u0101na",
+    "id": 1264071,
+    "name": "Malk\u0101pur",
     "cod": 200
 }

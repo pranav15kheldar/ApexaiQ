@@ -4,7 +4,6 @@
 import requests
 import json
 
-
 API_KEY = "e7d09741869880f91c2891e5ce03a5f0"
 file_name = "Open_Weather.json"
 location_file_name = "Location.json"
